@@ -1,0 +1,15 @@
+sudo git config --global user.email rvalverdem_85@hotmail.com
+$ sudo git config --global user.name kjeta
+
+git remote set-url origin https://<githubtoken>@github.com/<username>/<repositoryname>.git
+
+git remote set-url origin https://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@github.com/Kjeta/RHEL.git
+
+
+https://www.tecmint.com/install-git-centos-fedora-redhat/
+
+git init
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Kjeta/RHEL.git
+git push -u origin main
